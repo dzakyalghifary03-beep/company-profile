@@ -1,47 +1,81 @@
-@php
-$clients = [
-    'Pertamina',
-    'Krakatau Steel',
-    'PLN',
-    'Chandra Asri',
-    'Indorama',
-    'Lotte Chemical'
-];
-@endphp
-
-<section class="py-20 bg-white">
+<section id="clients" class="py-24 bg-white">
 
     <div class="container-custom">
 
-        <div class="text-center">
+        {{-- Heading --}}
+        <div class="text-center max-w-3xl mx-auto">
 
-            <span class="text-blue-900 font-semibold uppercase tracking-widest">
-                Trusted By
+            <span class="text-blue-700 font-bold uppercase tracking-[4px]">
+
+                OUR CLIENTS
+
             </span>
 
-            <h2 class="text-4xl font-bold mt-4">
-                Our Clients
+            <h2 class="mt-4 text-5xl font-black text-slate-900">
+
+                Trusted by Leading Companies
+
             </h2>
 
-            <p class="text-slate-600 mt-4">
-                Dipercaya oleh berbagai perusahaan dalam penyelesaian proyek industri.
+            <p class="mt-6 text-lg text-slate-600 leading-8">
+
+                We are proud to work with companies from various industrial sectors
+                and continue to build long-term partnerships based on trust and quality.
+
             </p>
 
         </div>
 
-        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 mt-14">
+        {{-- Client Grid --}}
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-16">
 
-            @foreach($clients as $client)
+            <div class="bg-slate-50 rounded-2xl h-28 flex items-center justify-center shadow-sm hover:shadow-lg transition">
+                <h3 class="text-xl font-bold text-slate-700">
+                    Pertamina
+                </h3>
+            </div>
 
-                <div class="bg-slate-100 rounded-xl h-24 flex items-center justify-center hover:bg-blue-900 hover:text-white transition">
+            <div class="bg-slate-50 rounded-2xl h-28 flex items-center justify-center shadow-sm hover:shadow-lg transition">
+                <h3 class="text-xl font-bold text-slate-700">
+                    PLN
+                </h3>
+            </div>
 
-                    <span class="font-semibold">
-                        {{ $client }}
-                    </span>
+            <div class="bg-slate-50 rounded-2xl h-28 flex items-center justify-center shadow-sm hover:shadow-lg transition">
+                <h3 class="text-xl font-bold text-slate-700">
+                    Krakatau Steel
+                </h3>
+            </div>
 
-                </div>
+            <div class="bg-slate-50 rounded-2xl h-28 flex items-center justify-center shadow-sm hover:shadow-lg transition">
+                <h3 class="text-xl font-bold text-slate-700">
+                    Pupuk Indonesia
+                </h3>
+            </div>
 
-            @endforeach
+            <div class="bg-slate-50 rounded-2xl h-28 flex items-center justify-center shadow-sm hover:shadow-lg transition">
+                <h3 class="text-xl font-bold text-slate-700">
+                    Lotte Chemical
+                </h3>
+            </div>
+
+            <div class="bg-slate-50 rounded-2xl h-28 flex items-center justify-center shadow-sm hover:shadow-lg transition">
+                <h3 class="text-xl font-bold text-slate-700">
+                    Bukit Asam
+                </h3>
+            </div>
+
+            <div class="bg-slate-50 rounded-2xl h-28 flex items-center justify-center shadow-sm hover:shadow-lg transition">
+                <h3 class="text-xl font-bold text-slate-700">
+                    Medco Energy
+                </h3>
+            </div>
+
+            <div class="bg-slate-50 rounded-2xl h-28 flex items-center justify-center shadow-sm hover:shadow-lg transition">
+                <h3 class="text-xl font-bold text-slate-700">
+                    Your Company
+                </h3>
+            </div>
 
         </div>
 

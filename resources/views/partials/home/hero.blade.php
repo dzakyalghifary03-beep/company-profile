@@ -1,129 +1,177 @@
-<section class="bg-slate-50">
+<section id="home" class="relative bg-white overflow-hidden">
 
-    <div class="container-custom min-h-[85vh] grid lg:grid-cols-2 gap-12 items-center">
+    {{-- Background Decoration --}}
+    <div class="absolute top-0 right-0 w-[550px] h-[550px] bg-blue-100 rounded-full blur-3xl opacity-40"></div>
 
-        <!-- Kiri -->
-        <div>
+    <div class="container-custom pt-16 pb-20">
 
-            <!-- Badge -->
-            <span class="inline-block bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-semibold">
-                TRUSTED ENGINEERING COMPANY
-            </span>
-    
-            <!-- Judul -->
-            <h1 class="mt-6 text-5xl lg:text-6xl font-extrabold leading-tight text-slate-900">
-                Building Solutions.<br>
-                <span class="text-blue-900">
-                    Powering Industries.
+        <div class="grid lg:grid-cols-2 gap-14 items-center">
+
+            {{-- ================= LEFT ================= --}}
+            <div>
+
+                {{-- Badge --}}
+                <span class="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-green-100 text-green-700 font-semibold text-lg">
+
+                <i data-lucide="shield-check" class="w-7 h-7"></i>
+
+                 Trusted Engineering Company
+
                 </span>
-            </h1>
 
-            <!-- Deskripsi -->
-            <p class="mt-6 text-lg text-slate-600 leading-8">
-                PT Bumi Insan Perkasa menyediakan layanan General Contractor,
-                Mechanical, Scaffolding, Insulation, Refractory, Supplier,
-                Labour Supply dan General Trade dengan komitmen terhadap kualitas,
-                keselamatan, dan ketepatan waktu.
-            </p>
+                {{-- Heading --}}
+                <h1 class="mt-6 text-5xl lg:text-[58px] font-black leading-tight text-slate-900">
 
-            <!-- Button -->
-            <div class="mt-10 flex flex-wrap gap-4">
+                    Building
+                    <span class="text-blue-700">
 
-                <a href="#projects"
-                    class="bg-blue-900 hover:bg-blue-800 text-white px-8 py-4 rounded-xl font-semibold transition">
+                        Industrial
 
-                    Explore Projects
-
-                </a>
-
-                <a href="#contact"
-                    class="border border-slate-300 hover:bg-slate-100 px-8 py-4 rounded-xl font-semibold transition">
-
-                    Contact Us
-
-                </a>
-
-            </div>
-
-            <!-- Keunggulan -->
-            <div class="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-6">
-
-                <div class="flex items-center gap-3">
-
-                    <div class="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
-                        ✅
-                    </div>
-
-                    <span class="font-medium">
-                        Safety First
                     </span>
 
-                </div>
+                    Solutions
 
-                <div class="flex items-center gap-3">
+                    <br>
 
-                    <div class="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
-                        ✅
-                    </div>
+                    For The Future.
 
-                    <span class="font-medium">
-                        Certified Team
-                    </span>
+                </h1>
 
-                </div>
+                {{-- Description --}}
+                <p class="mt-6 text-lg leading-8 text-slate-600 max-w-xl">
 
-                <div class="flex items-center gap-3">
+                    PT Bumi Insan Perkasa provides professional engineering services
+                    including General Contractor, Mechanical, Scaffolding,
+                    Insulation, Refractory, Supplier, Labour Supply and
+                    General Trade.
 
-                    <div class="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
-                        ✅
-                    </div>
-
-                    <span class="font-medium">
-                        On Time Delivery
-                    </span>
-
-                </div>
-
-            </div>
-
-            <!-- Trusted By -->
-            <div class="mt-12">
-
-                <p class="text-sm uppercase tracking-widest text-slate-500 font-semibold">
-                    Trusted by Industry Leaders
                 </p>
 
-                <div class="mt-5 flex flex-wrap gap-4">
+                {{-- Button --}}
+                <div class="mt-8 flex flex-wrap gap-4">
 
-                    <span class="px-5 py-3 bg-white rounded-xl shadow-sm font-semibold text-slate-700">
-                        Pertamina
-                    </span>
+                    <a href="#projects"
+                        class="px-8 py-4 rounded-xl bg-blue-900 text-white font-semibold shadow-lg hover:bg-blue-800 transition">
 
-                    <span class="px-5 py-3 bg-white rounded-xl shadow-sm font-semibold text-slate-700">
-                        Krakatau Steel
-                    </span>
+                        Explore Projects →
 
-                    <span class="px-5 py-3 bg-white rounded-xl shadow-sm font-semibold text-slate-700">
-                        PLN
-                    </span>
+                    </a>
 
-                    <span class="px-5 py-3 bg-white rounded-xl shadow-sm font-semibold text-slate-700">
-                        Lotte Chemical
-                    </span>
+                    <a href="#contact"
+                        class="px-8 py-4 rounded-xl border border-slate-300 font-semibold hover:bg-slate-100 transition">
+
+                        Contact Us
+
+                    </a>
+
+                </div>
+
+                {{-- Statistics --}}
+                <div class="grid grid-cols-3 gap-8 mt-10">
+
+                    <div>
+
+                        <h2 class="text-5xl font-black text-blue-900">
+
+                            150+
+
+                        </h2>
+
+                        <p class="mt-1 text-slate-600 font-medium">
+
+                            Projects
+
+                        </p>
+
+                    </div>
+
+                    <div>
+
+                        <h2 class="text-4xl font-black text-blue-900">
+
+                            25+
+
+                        </h2>
+
+                        <p class="mt-2 text-slate-500">
+
+                            Clients
+
+                        </p>
+
+                    </div>
+
+                    <div>
+
+                        <h2 class="text-4xl font-black text-blue-900">
+
+                            8+
+
+                        </h2>
+
+                        <p class="mt-2 text-slate-500">
+
+                            Years
+
+                        </p>
+
+                    </div>
 
                 </div>
 
             </div>
 
-        </div>
+            {{-- ================= RIGHT ================= --}}
+            <div class="relative">
 
-        <!-- Kanan -->
-        <div>
+                <img
+                    src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1400"
+                    alt="Project"
+                    class="rounded-[35px] shadow-2xl w-full object-cover">
 
-            <img
-                src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1200"
-                class="rounded-3xl shadow-2xl hover:scale-105 transition duration-700"
-                alt="Project">
+                {{-- ISO --}}
+                <div class="absolute top-10 -left-14 bg-white rounded-3xl shadow-xl p-8 hover:shadow-2xl transition duration-300">
+
+    <div
+        class="w-16 h-16 rounded-2xl bg-blue-100 flex items-center justify-center">
+
+        <i data-lucide="shield-check"
+            class="w-9 h-9 text-blue-700"></i>
+
+    </div>
+
+    <h3 class="mt-5 font-bold text-2xl text-slate-900">
+
+        ISO Standard
+
+    </h3>
+
+    <p class="text-slate-500 mt-1">
+
+        Safety • Quality • Integrity
+
+    </p>
+
+</div>
+
+                {{-- Project Card --}}
+                <div class="absolute -bottom-5 right-6 bg-white rounded-3xl shadow-xl px-8 py-6">
+
+                    <h2 class="text-5xl font-black text-blue-900">
+
+                        150+
+
+                    </h2>
+
+                    <p class="text-slate-500">
+
+                        Completed Projects
+
+                    </p>
+
+                </div>
+
+            </div>
 
         </div>
 

@@ -1,57 +1,100 @@
-<nav class="bg-white shadow-sm sticky top-0 z-50">
+<nav class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
 
-    <div class="container-custom">
+    <div class="container-custom flex justify-between items-center h-24">
 
-        <div class="flex items-center justify-between h-20">
+        {{-- Logo --}}
+        <a href="/" class="flex items-center gap-4">
 
-            <!-- Logo -->
-            <a href="/" class="flex items-center gap-3">
+            <img
+                src="{{ asset('images/logo.png') }}"
+                class="w-14 h-14 object-contain"
+                alt="Logo">
 
-                <img
-                    src="{{ asset('images/logo.png') }}"
-                    alt="Logo PT Bumi Insan Perkasa"
-                    class="h-20 w-auto">
+            <div>
 
-                <div>
-                    <h1 class="font-bold text-slate-800 text-lg">
-                        PT Bumi Insan Perkasa
-                    </h1>
+                <h2 class="text-xl lg:text-2xl font-bold text-slate-900">
 
-                    <p class="text-xs text-slate-500">
-                        Engineering & Industrial Contractor
-                    </p>
-                </div>
+                    PT Bumi Insan Perkasa
 
-            </a>
+                </h2>
 
-            <!-- Menu -->
-            <ul class="hidden md:flex items-center gap-8 font-medium">
+                <p class="text-sm text-slate-500 hidden lg:block">
 
-                <li><a href="#" class="hover:text-green-600 duration-300">Home</a></li>
+                    Engineering & Industrial Contractor
 
-                <li><a href="#" class="hover:text-green-600 duration-300">About</a></li>
+                </p>
 
-                <li><a href="#" class="hover:text-green-600 duration-300">Services</a></li>
+            </div>
 
-                <li><a href="#" class="hover:text-green-600 duration-300">Projects</a></li>
+        </a>
 
-                <li><a href="#" class="hover:text-green-600 duration-300">Contact</a></li>
+        {{-- Desktop Menu --}}
+        <div class="hidden lg:flex items-center gap-10 font-semibold">
 
-            </ul>
+            <a href="#home" class="hover:text-blue-900">Home</a>
 
-            <a href="#"
-                class="hidden md:inline-flex bg-green-600 hover:bg-green-700 text-white px-5 py-3 rounded-xl font-semibold transition">
+            <a href="#about" class="hover:text-blue-900">About</a>
+
+            <a href="#services" class="hover:text-blue-900">Services</a>
+
+            <a href="#projects" class="hover:text-blue-900">Projects</a>
+
+            <a href="#contact" class="hover:text-blue-900">Contact</a>
+
+        </div>
+
+        {{-- Desktop Button --}}
+        <div class="hidden lg:block">
+
+            <a href="#contact"
+                class="bg-green-600 hover:bg-green-700 text-white px-7 py-3 rounded-xl font-bold transition">
 
                 Get Quote
 
             </a>
-            <!-- Hamburger Menu -->
-<button id="menu-btn" class="md:hidden text-3xl text-blue-500">
-    ☰
-</button>
+
+        </div>
+
+        {{-- Mobile Button --}}
+        <button
+            id="menuButton"
+            class="lg:hidden">
+
+            <i data-lucide="menu" class="w-8 h-8"></i>
+
+        </button>
+
+    </div>
+
+    {{-- Mobile Menu --}}
+    <div
+        id="mobileMenu"
+        class="hidden lg:hidden border-t bg-white">
+
+        <div class="flex flex-col">
+
+            <a href="#home" class="px-6 py-4 border-b">Home</a>
+
+            <a href="#about" class="px-6 py-4 border-b">About</a>
+
+            <a href="#services" class="px-6 py-4 border-b">Services</a>
+
+            <a href="#projects" class="px-6 py-4 border-b">Projects</a>
+
+            <a href="#contact" class="px-6 py-4 border-b">Contact</a>
+
+            <a
+                href="#contact"
+                class="m-5 bg-green-600 text-white text-center py-3 rounded-xl font-semibold">
+
+                Get Quote
+
+            </a>
 
         </div>
 
     </div>
 
 </nav>
+
+<div class="h-24"></div>
