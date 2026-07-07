@@ -1,28 +1,29 @@
 <section id="home" class="relative bg-white overflow-hidden">
 
     {{-- Background Decoration --}}
-    <div class="absolute top-0 right-0 w-[550px] h-[550px] bg-blue-100 rounded-full blur-3xl opacity-40"></div>
+    <div class="absolute top-0 right-0 w-[220px] h-[220px] lg:w-[550px] lg:h-[550px] bg-blue-100 rounded-full blur-3xl opacity-40"></div>
 
-    <div class="container-custom pt-16 pb-20">
+    <div class="container-custom pt-12 pb-16 lg:pt-20 lg:pb-24">
 
-        <div class="grid lg:grid-cols-2 gap-14 items-center">
+        <div class="grid lg:grid-cols-2 gap-8 lg:gap-14 items-center">
 
             {{-- ================= LEFT ================= --}}
             <div>
 
                 {{-- Badge --}}
-                <span class="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-green-100 text-green-700 font-semibold text-lg">
+                <span class="inline-flex items-center gap-2 lg:gap-3 px-3 lg:px-6 py-2 lg:py-3 rounded-full bg-green-100 text-green-700 font-semibold text-sm lg:text-lg">
 
-                <i data-lucide="shield-check" class="w-7 h-7"></i>
+                    <i data-lucide="shield-check" class="w-5 h-5 lg:w-7 lg:h-7"></i>
 
-                 Trusted Engineering Company
+                    Trusted Engineering Company
 
                 </span>
 
                 {{-- Heading --}}
-                <h1 class="mt-6 text-5xl lg:text-[58px] font-black leading-tight text-slate-900">
+                <h1 class="mt-6 text-[42px] sm:text-5xl lg:text-[64px] font-black leading-tight text-slate-900">
 
                     Building
+
                     <span class="text-blue-700">
 
                         Industrial
@@ -38,27 +39,24 @@
                 </h1>
 
                 {{-- Description --}}
-                <p class="mt-6 text-lg leading-8 text-slate-600 max-w-xl">
+                <p class="mt-6 text-base lg:text-lg leading-7 lg:leading-8 text-slate-600 max-w-xl">
 
-                    PT Bumi Insan Perkasa provides professional engineering services
-                    including General Contractor, Mechanical, Scaffolding,
-                    Insulation, Refractory, Supplier, Labour Supply and
-                    General Trade.
+                    PT Bumi Insan Perkasa provides professional engineering services including General Contractor, Mechanical, Scaffolding, Insulation, Refractory, Supplier, Labour Supply and General Trade.
 
                 </p>
 
                 {{-- Button --}}
-                <div class="mt-8 flex flex-wrap gap-4">
+                <div class="mt-8 flex flex-col md:flex-row gap-4">
 
                     <a href="#projects"
-                        class="px-8 py-4 rounded-xl bg-blue-900 text-white font-semibold shadow-lg hover:bg-blue-800 transition">
+                        class="px-6 lg:px-8 py-3 lg:py-4 rounded-xl bg-blue-900 text-white font-semibold shadow-lg hover:bg-blue-800 transition text-center">
 
                         Explore Projects →
 
                     </a>
 
                     <a href="#contact"
-                        class="px-8 py-4 rounded-xl border border-slate-300 font-semibold hover:bg-slate-100 transition">
+                        class="px-6 lg:px-8 py-3 lg:py-4 rounded-xl border border-slate-300 font-semibold hover:bg-slate-100 transition text-center">
 
                         Contact Us
 
@@ -67,17 +65,17 @@
                 </div>
 
                 {{-- Statistics --}}
-                <div class="grid grid-cols-3 gap-8 mt-10">
+                <div class="grid grid-cols-3 gap-6 lg:gap-10 mt-12 lg:mt-14 text-center">
 
                     <div>
 
-                        <h2 class="text-5xl font-black text-blue-900">
+                        <h2 class="text-3xl lg:text-5xl font-black text-blue-900">
 
                             150+
 
                         </h2>
 
-                        <p class="mt-1 text-slate-600 font-medium">
+                        <p class="mt-2 text-sm lg:text-base text-slate-600 font-medium">
 
                             Projects
 
@@ -87,13 +85,13 @@
 
                     <div>
 
-                        <h2 class="text-4xl font-black text-blue-900">
+                        <h2 class="text-3xl lg:text-4xl font-black text-blue-900">
 
                             25+
 
                         </h2>
 
-                        <p class="mt-2 text-slate-500">
+                        <p class="mt-2 text-sm lg:text-base text-slate-500">
 
                             Clients
 
@@ -103,13 +101,13 @@
 
                     <div>
 
-                        <h2 class="text-4xl font-black text-blue-900">
+                        <h2 class="text-3xl lg:text-4xl font-black text-blue-900">
 
                             8+
 
                         </h2>
 
-                        <p class="mt-2 text-slate-500">
+                        <p class="mt-2 text-sm lg:text-base text-slate-500">
 
                             Years
 
@@ -122,48 +120,47 @@
             </div>
 
             {{-- ================= RIGHT ================= --}}
-            <div class="relative">
+            <div class="relative mt-10 lg:mt-0">
 
                 <img
                     src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1400"
                     alt="Project"
-                    class="rounded-[35px] shadow-2xl w-full object-cover">
+                    class="w-full aspect-[4/3] object-cover rounded-[28px] lg:rounded-[35px] shadow-2xl">
 
-                {{-- ISO --}}
-                <div class="absolute top-10 -left-14 bg-white rounded-3xl shadow-xl p-8 hover:shadow-2xl transition duration-300">
+                {{-- ISO Card --}}
+                <div class="absolute top-4 left-4 lg:top-10 lg:-left-14 bg-white rounded-2xl lg:rounded-3xl shadow-xl p-4 lg:p-8 max-w-[180px] lg:max-w-none hover:shadow-2xl transition duration-300">
 
-    <div
-        class="w-16 h-16 rounded-2xl bg-blue-100 flex items-center justify-center">
+                    <div class="w-12 h-12 lg:w-16 lg:h-16 rounded-2xl bg-blue-100 flex items-center justify-center">
 
-        <i data-lucide="shield-check"
-            class="w-9 h-9 text-blue-700"></i>
+                        <i data-lucide="shield-check"
+                            class="w-6 h-6 lg:w-9 lg:h-9 text-blue-700"></i>
 
-    </div>
+                    </div>
 
-    <h3 class="mt-5 font-bold text-2xl text-slate-900">
+                    <h3 class="mt-4 lg:mt-5 font-bold text-lg lg:text-2xl text-slate-900">
 
-        ISO Standard
+                        ISO Standard
 
-    </h3>
+                    </h3>
 
-    <p class="text-slate-500 mt-1">
+                    <p class="text-xs lg:text-base text-slate-500 mt-1">
 
-        Safety • Quality • Integrity
+                        Safety • Quality • Integrity
 
-    </p>
+                    </p>
 
-</div>
+                </div>
 
                 {{-- Project Card --}}
-                <div class="absolute -bottom-5 right-6 bg-white rounded-3xl shadow-xl px-8 py-6">
+                <div class="absolute bottom-4 right-4 lg:-bottom-5 lg:right-6 bg-white rounded-2xl lg:rounded-3xl shadow-xl px-5 lg:px-8 py-4 lg:py-6 text-center">
 
-                    <h2 class="text-5xl font-black text-blue-900">
+                    <h2 class="text-3xl lg:text-5xl font-black text-blue-900">
 
                         150+
 
                     </h2>
 
-                    <p class="text-slate-500">
+                    <p class="text-xs lg:text-base text-slate-500">
 
                         Completed Projects
 

@@ -33,7 +33,7 @@
 
 @include('partials.footer')
 
-@include('partials.whatsapp')
+{{-- @include('partials.whatsapp') --}}
 
 @include('partials.back-to-top')
 
