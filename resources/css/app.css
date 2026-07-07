@@ -9,19 +9,57 @@
         "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
         "Noto Color Emoji";
 }
-/* ==========================
-   DESIGN SYSTEM
-========================== */
 
+/* ==================================================
+   GLOBAL
+================================================== */
+
+html,
 body {
+    width: 100%;
+    overflow-x: hidden;
     font-family: "Poppins", sans-serif;
     background-color: #f8fafc;
     color: #334155;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* ==================================================
+   CONTAINER
+================================================== */
+
 .container-custom {
+    width: 100%;
     max-width: 1280px;
     margin: 0 auto;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-inline: 1rem;
+}
+
+@media (min-width: 640px) {
+    .container-custom {
+        padding-inline: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container-custom {
+        padding-inline: 2rem;
+    }
+}
+
+/* ==================================================
+   MEDIA
+================================================== */
+
+img,
+video,
+iframe {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }

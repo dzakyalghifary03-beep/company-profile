@@ -128,8 +128,7 @@
 
                         </h3>
 
-                        <p
-                            class="mt-3 text-slate-600">
+                        <p class="mt-3 text-slate-600 break-all">
 
                             pt.bumiinsanperkasa@yahoo.com
 
@@ -143,7 +142,7 @@
 
             {{-- ================= RIGHT ================= --}}
             <div
-                class="bg-white rounded-[32px] shadow-xl p-8">
+                class="bg-white rounded-[32px] shadow-xl p-5 sm:p-6 lg:p-8 overflow-hidden">
 
                             {{-- Google Maps --}}
                 <div class="rounded-3xl overflow-hidden shadow-lg">
@@ -162,7 +161,7 @@
                 </div>
 
                 {{-- Buttons --}}
-                <div class="grid sm:grid-cols-2 gap-4 mt-8">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
 
                     <a href="https://wa.me/6287890816707"
                         target="_blank"
