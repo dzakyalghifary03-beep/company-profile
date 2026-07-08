@@ -3,7 +3,7 @@
     <div class="container-custom">
 
         {{-- Heading --}}
-        <div class="text-center max-w-3xl mx-auto">
+        <div class="text-center max-w-3xl mx-auto" data-aos="fade-up">
 
             <span class="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 text-blue-700 font-semibold text-sm">
 
@@ -31,7 +31,10 @@
         <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8 mt-14 lg:mt-16">
 
             {{-- Project 1 --}}
-            <div class="group relative overflow-hidden rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500">
+            <div 
+            data-aos="fade-up"
+            data-aos-delay="100"
+            class="group relative overflow-hidden rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500">
 
                 <img
                     src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1400"
@@ -65,7 +68,10 @@
             </div>
 
             {{-- Project 2 --}}
-            <div class="group relative overflow-hidden rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500">
+            <div 
+            data-aos="fade-up"
+            data-aos-delay="200"
+            class="group relative overflow-hidden rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500">
 
                 <img
                     src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1400"
@@ -99,7 +105,10 @@
             </div>
 
             {{-- Project 3 --}}
-            <div class="group relative overflow-hidden rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500">
+            <div 
+            data-aos="fade-up"
+            data-aos-delay="300"
+            class="group relative overflow-hidden rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500">
 
                 <img
                     src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1400"
@@ -133,7 +142,10 @@
             </div>
 
             {{-- Project 4 --}}
-            <div class="group relative overflow-hidden rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500">
+            <div 
+            data-aos="fade-up"
+            data-aos-delay="400"
+            class="group relative overflow-hidden rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500">
 
                 <img
                     src="https://images.unsplash.com/photo-1489515217757-5fd1be406fef?q=80&w=1400"
@@ -167,7 +179,10 @@
             </div>
 
             {{-- Project 5 --}}
-            <div class="group relative overflow-hidden rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500">
+            <div 
+            data-aos="fade-up"
+            data-aos-delay="500"
+            class="group relative overflow-hidden rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500">
 
                 <img
                     src="https://images.unsplash.com/photo-1513828583688-c52646db42da?q=80&w=1400"
@@ -201,7 +216,10 @@
             </div>
 
             {{-- Project 6 --}}
-            <div class="group relative overflow-hidden rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500">
+            <div 
+            data-aos="fade-up"
+            data-aos-delay="600"
+            class="group relative overflow-hidden rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500">
 
                 <img
                     src="https://images.unsplash.com/photo-1494412651409-8963ce7935a7?q=80&w=1400"

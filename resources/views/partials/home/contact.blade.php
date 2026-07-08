@@ -3,7 +3,7 @@
     <div class="container-custom">
 
         {{-- Heading --}}
-        <div class="text-center max-w-3xl mx-auto">
+        <div class="text-center max-w-3xl mx-auto" data-aos="fade-up">
 
             <span
                 class="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 text-blue-700 font-semibold text-sm">
@@ -33,10 +33,12 @@
         <div class="grid lg:grid-cols-2 gap-10 lg:gap-16 mt-14">
 
             {{-- ================= LEFT ================= --}}
-            <div class="space-y-6">
+            <div class="space-y-6" data-aos="fade-right">
 
                 {{-- Address --}}
                 <div
+                data-aos="fade-right"
+                data-aos-delay="100"
                     class="group flex items-start gap-5 bg-white rounded-3xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300">
 
                     <div
@@ -73,6 +75,8 @@
 
                 {{-- Phone --}}
                 <div
+                 data-aos="fade-right"
+                data-aos-delay="200"
                     class="group flex items-start gap-5 bg-white rounded-3xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300">
 
                     <div
@@ -107,6 +111,8 @@
 
                 {{-- Email --}}
                 <div
+                 data-aos="fade-right"
+                data-aos-delay="300"
                     class="group flex items-start gap-5 bg-white rounded-3xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300">
 
                     <div
@@ -142,10 +148,15 @@
 
             {{-- ================= RIGHT ================= --}}
             <div
+            data-aos="fade-left"
+            data-aos-delay="200"
                 class="bg-white rounded-[32px] shadow-xl p-5 sm:p-6 lg:p-8 overflow-hidden">
 
                             {{-- Google Maps --}}
-                <div class="rounded-3xl overflow-hidden shadow-lg">
+                <div 
+                data-aos="zoom-in"
+                data-aos-delay="300"
+                class="rounded-3xl overflow-hidden shadow-lg">
 
                     <iframe
                         src="https://www.google.com/maps?q=Ciwandan+Cilegon&output=embed"
@@ -161,7 +172,10 @@
                 </div>
 
                 {{-- Buttons --}}
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
+                <div 
+                data-aos="zoom-in"
+                data-aos-delay="400"
+                class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
 
                     <a href="https://wa.me/6287890816707"
                         target="_blank"

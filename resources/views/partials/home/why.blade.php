@@ -5,7 +5,7 @@
         <div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
 
             {{-- ================= LEFT ================= --}}
-            <div>
+            <div data-aos="fade-right">
 
                 {{-- Badge --}}
                 <span class="inline-flex items-center px-4 lg:px-5 py-2 rounded-full bg-green-500/20 text-green-400 font-semibold uppercase tracking-[3px] lg:tracking-widest text-xs lg:text-sm">
@@ -41,6 +41,8 @@
 
                     {{-- Stat 1 --}}
                     <div
+                    data-aos="zoom-in"
+                    data-aos-delay="100"
                         class="bg-white/10 backdrop-blur rounded-2xl lg:rounded-3xl p-5 lg:p-6 border border-transparent hover:border-green-400 hover:bg-white/15 hover:scale-[1.03] transition-all duration-300">
 
                         <h3 class="text-3xl lg:text-4xl font-black text-green-400">
@@ -59,6 +61,8 @@
 
                     {{-- Stat 2 --}}
                     <div
+                    data-aos="zoom-in"
+                    data-aos-delay="200"
                         class="bg-white/10 backdrop-blur rounded-2xl lg:rounded-3xl p-5 lg:p-6 border border-transparent hover:border-green-400 hover:bg-white/15 hover:scale-[1.03] transition-all duration-300">
 
                         <h3 class="text-3xl lg:text-4xl font-black text-green-400">
@@ -77,6 +81,8 @@
 
                     {{-- Stat 3 --}}
                     <div
+                    data-aos="zoom-in"
+                    data-aos-delay="300"
                         class="bg-white/10 backdrop-blur rounded-2xl lg:rounded-3xl p-5 lg:p-6 border border-transparent hover:border-green-400 hover:bg-white/15 hover:scale-[1.03] transition-all duration-300">
 
                         <h3 class="text-3xl lg:text-4xl font-black text-green-400">
@@ -95,6 +101,8 @@
 
                     {{-- Stat 4 --}}
                     <div
+                    data-aos="zoom-in"
+                    data-aos-delay="400"
                         class="bg-white/10 backdrop-blur rounded-2xl lg:rounded-3xl p-5 lg:p-6 border border-transparent hover:border-green-400 hover:bg-white/15 hover:scale-[1.03] transition-all duration-300">
 
                         <h3 class="text-3xl lg:text-4xl font-black text-green-400">
@@ -116,10 +124,12 @@
             </div>
 
             {{-- ================= RIGHT ================= --}}
-            <div class="space-y-5 lg:space-y-6">
+            <div class="space-y-5 lg:space-y-6" data-aos="fade-left">
 
                 {{-- Safety --}}
                 <div
+                data-aos="fade-left"
+                data-aos-delay="100"
                     class="group bg-white rounded-2xl lg:rounded-3xl p-6 lg:p-8 shadow-lg border border-transparent hover:border-green-400 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
 
                     <div class="flex items-start gap-4 lg:gap-5">
@@ -158,6 +168,8 @@
 
                                 {{-- Professional Team --}}
                 <div
+                data-aos="fade-left"
+                data-aos-delay="200"
                     class="group bg-white rounded-2xl lg:rounded-3xl p-6 lg:p-8 shadow-lg border border-transparent hover:border-blue-500 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
 
                     <div class="flex items-start gap-4 lg:gap-5">
@@ -197,6 +209,8 @@
 
                 {{-- On-Time Delivery --}}
                 <div
+                data-aos="fade-left"
+                data-aos-delay="300"
                     class="group bg-white rounded-2xl lg:rounded-3xl p-6 lg:p-8 shadow-lg border border-transparent hover:border-orange-400 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
 
                     <div class="flex items-start gap-4 lg:gap-5">

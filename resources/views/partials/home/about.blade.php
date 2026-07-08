@@ -5,7 +5,7 @@
         <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
             {{-- ================= IMAGE ================= --}}
-            <div class="relative order-2 lg:order-1">
+            <div class="relative order-2 lg:order-1" data-aos="fade-right">
 
                 <img
                     src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1400"
@@ -33,7 +33,7 @@
             </div>
 
             {{-- ================= CONTENT ================= --}}
-            <div class="order-1 lg:order-2">
+            <div class="order-1 lg:order-2" data-aos="fade-left">
 
                 <span
                     class="inline-block text-blue-700 font-bold uppercase tracking-[4px] text-sm">
@@ -73,6 +73,8 @@
 
                                     {{-- Card 1 --}}
                     <div
+                    data-aos="fade-up"
+                    data-aos-delay="100"
                         class="flex items-start gap-4 bg-white rounded-2xl p-5 shadow-md hover:shadow-2xl hover:-translate-y-2 transition duration-300">
 
                         <div
@@ -102,6 +104,8 @@
 
                     {{-- Card 2 --}}
                     <div
+                    data-aos="fade-up"
+                     data-aos-delay="200"
                         class="flex items-start gap-4 bg-white rounded-2xl p-5 shadow-md hover:shadow-2xl hover:-translate-y-2 transition duration-300">
 
                         <div
@@ -131,6 +135,8 @@
 
                     {{-- Card 3 --}}
                     <div
+                    data-aos="fade-up"
+                     data-aos-delay="300"
                         class="flex items-start gap-4 bg-white rounded-2xl p-5 shadow-md hover:shadow-2xl hover:-translate-y-2 transition duration-300">
 
                         <div
@@ -160,6 +166,8 @@
 
                     {{-- Card 4 --}}
                     <div
+                    data-aos="fade-up"
+                     data-aos-delay="400"
                         class="flex items-start gap-4 bg-white rounded-2xl p-5 shadow-md hover:shadow-2xl hover:-translate-y-2 transition duration-300">
 
                         <div

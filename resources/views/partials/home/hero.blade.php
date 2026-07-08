@@ -8,7 +8,7 @@
         <div class="grid lg:grid-cols-2 gap-8 lg:gap-14 items-center">
 
             {{-- ================= LEFT ================= --}}
-            <div>
+            <div data-aos="fade-right">
 
                 {{-- Badge --}}
                 <span class="inline-flex items-center gap-2 lg:gap-3 px-3 lg:px-6 py-2 lg:py-3 rounded-full bg-green-100 text-green-700 font-semibold text-sm lg:text-lg">
@@ -120,7 +120,7 @@
             </div>
 
             {{-- ================= RIGHT ================= --}}
-            <div class="relative mt-10 lg:mt-0">
+            <div class="relative mt-10 lg:mt-0" data-aos="fade-left">
 
                 <img
                     src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1400"

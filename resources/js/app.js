@@ -1,6 +1,14 @@
 import { createIcons, icons } from "lucide";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 createIcons({ icons });
+
+AOS.init({
+    duration: 1000,
+    once: true,
+    offset: 100,
+});
 
 const backToTop = document.getElementById("backToTop");
 
@@ -24,9 +32,7 @@ backToTop?.addEventListener("click", () => {
 });
 
 // Mobile Menu
-
 const menuButton = document.getElementById("menuButton");
-
 const mobileMenu = document.getElementById("mobileMenu");
 
 menuButton?.addEventListener("click", () => {

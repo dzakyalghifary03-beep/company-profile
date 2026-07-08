@@ -3,7 +3,7 @@
     <div class="container-custom">
 
         {{-- Heading --}}
-        <div class="text-center max-w-3xl mx-auto">
+        <div class="text-center max-w-3xl mx-auto" data-aos="fade-up">
 
             <span class="text-blue-700 font-bold uppercase tracking-[4px] text-sm">
 
@@ -35,7 +35,10 @@
         <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-8 mt-14 lg:mt-16">
 
             {{-- Card 1 --}}
-            <div class="group relative bg-white rounded-3xl p-6 lg:p-8 shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
+            <div 
+            data-aos="fade-up"
+            data-aos-delay="100"
+            class="group relative bg-white rounded-3xl p-6 lg:p-8 shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
 
                 <div class="absolute top-0 left-0 w-full h-1 bg-blue-700 scale-x-0 group-hover:scale-x-100 origin-left transition duration-300"></div>
 
@@ -60,7 +63,10 @@
             </div>
 
             {{-- Card 2 --}}
-            <div class="group relative bg-white rounded-3xl p-6 lg:p-8 shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
+            <div 
+            data-aos="fade-up"
+            data-aos-delay="200"
+            class="group relative bg-white rounded-3xl p-6 lg:p-8 shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
 
                 <div class="absolute top-0 left-0 w-full h-1 bg-green-600 scale-x-0 group-hover:scale-x-100 origin-left transition duration-300"></div>
 
@@ -85,7 +91,10 @@
             </div>
 
             {{-- Card 3 --}}
-            <div class="group relative bg-white rounded-3xl p-6 lg:p-8 shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
+            <div 
+            data-aos="fade-up"
+            data-aos-delay="300"
+            class="group relative bg-white rounded-3xl p-6 lg:p-8 shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
 
                 <div class="absolute top-0 left-0 w-full h-1 bg-orange-500 scale-x-0 group-hover:scale-x-100 origin-left transition duration-300"></div>
 
@@ -110,7 +119,10 @@
             </div>
 
             {{-- Card 4 --}}
-            <div class="group relative bg-white rounded-3xl p-6 lg:p-8 shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
+            <div 
+            data-aos="fade-up"
+            data-aos-delay="400"
+            class="group relative bg-white rounded-3xl p-6 lg:p-8 shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
 
                 <div class="absolute top-0 left-0 w-full h-1 bg-cyan-600 scale-x-0 group-hover:scale-x-100 origin-left transition duration-300"></div>
 
@@ -135,7 +147,10 @@
             </div>
 
             {{-- Card 5 --}}
-            <div class="group relative bg-white rounded-3xl p-6 lg:p-8 shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
+            <div 
+            data-aos="fade-up"
+            data-aos-delay="500"
+            class="group relative bg-white rounded-3xl p-6 lg:p-8 shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
 
                 <div class="absolute top-0 left-0 w-full h-1 bg-purple-600 scale-x-0 group-hover:scale-x-100 origin-left transition duration-300"></div>
 
@@ -160,7 +175,10 @@
             </div>
 
             {{-- Card 6 --}}
-            <div class="group relative bg-white rounded-3xl p-6 lg:p-8 shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
+            <div 
+            data-aos="fade-up"
+            data-aos-delay="600"
+            class="group relative bg-white rounded-3xl p-6 lg:p-8 shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
 
                 <div class="absolute top-0 left-0 w-full h-1 bg-red-600 scale-x-0 group-hover:scale-x-100 origin-left transition duration-300"></div>
 
