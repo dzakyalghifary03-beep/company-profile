@@ -38,3 +38,85 @@ const mobileMenu = document.getElementById("mobileMenu");
 menuButton?.addEventListener("click", () => {
     mobileMenu.classList.toggle("hidden");
 });
+
+// Active Navbar
+const sections = document.querySelectorAll("section[id]");
+const navLinks = document.querySelectorAll(".nav-link");
+
+window.addEventListener("scroll", () => {
+    let current = "";
+
+    sections.forEach((section) => {
+        const sectionTop = section.offsetTop - 120;
+        const sectionHeight = section.offsetHeight;
+
+        if (
+            window.scrollY >= sectionTop &&
+            window.scrollY < sectionTop + sectionHeight
+        ) {
+            current = section.getAttribute("id");
+        }
+    });
+
+    navLinks.forEach((link) => {
+        link.classList.remove("text-blue-700");
+
+        if (link.getAttribute("href") === `#${current}`) {
+            link.classList.add("text-blue-700");
+        }
+    });
+});
+
+// Counter Animation
+const counters = document.querySelectorAll(".counter");
+
+const counterObserver = new IntersectionObserver(
+    (entries) => {
+        entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+
+            const counter = entry.target;
+            const target = +counter.dataset.target;
+
+            let current = 0;
+            const increment = target / 50;
+
+            const updateCounter = () => {
+                if (current < target) {
+                    current += increment;
+                    counter.innerText = Math.ceil(current);
+
+                    requestAnimationFrame(updateCounter);
+                } else {
+                    counter.innerText = target;
+                }
+            };
+
+            updateCounter();
+
+            counterObserver.unobserve(counter);
+        });
+    },
+    {
+        threshold: 0.5,
+    },
+);
+
+counters.forEach((counter) => {
+    counterObserver.observe(counter);
+});
+
+// Scroll Progress Bar
+const scrollProgress = document.getElementById("scrollProgress");
+
+window.addEventListener("scroll", () => {
+    if (!scrollProgress) return;
+
+    const scrollTop = window.scrollY;
+    const docHeight =
+        document.documentElement.scrollHeight - window.innerHeight;
+
+    const progress = (scrollTop / docHeight) * 100;
+
+    scrollProgress.style.width = `${progress}%`;
+});

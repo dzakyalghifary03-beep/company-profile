@@ -31,15 +31,15 @@
         {{-- Desktop Menu --}}
         <div class="hidden lg:flex items-center gap-10 font-semibold">
 
-            <a href="#home" class="hover:text-blue-900">Home</a>
+            <a href="#home" class="nav-link hover:text-blue-900 transition">Home</a>
 
-            <a href="#about" class="hover:text-blue-900">About</a>
+            <a href="#about" class="nav-link hover:text-blue-900 transition">About</a>
 
-            <a href="#services" class="hover:text-blue-900">Services</a>
+            <a href="#services" class="nav-link hover:text-blue-900 transition">Services</a>
 
-            <a href="#projects" class="hover:text-blue-900">Projects</a>
+            <a href="#projects" class="nav-link hover:text-blue-900 transition">Projects</a>
 
-            <a href="#contact" class="hover:text-blue-900">Contact</a>
+            <a href="#contact" class="nav-link hover:text-blue-900 transition">Contact</a>
 
         </div>
 
@@ -73,15 +73,15 @@
 
         <div class="flex flex-col">
 
-            <a href="#home" class="px-6 py-4 border-b">Home</a>
+            <a href="#home" class="nav-link px-6 py-4 border-b">Home</a>
 
-            <a href="#about" class="px-6 py-4 border-b">About</a>
+            <a href="#about" class="nav-link px-6 py-4 border-b">About</a>
 
-            <a href="#services" class="px-6 py-4 border-b">Services</a>
+            <a href="#services" class="nav-link px-6 py-4 border-b">Services</a>
 
-            <a href="#projects" class="px-6 py-4 border-b">Projects</a>
+            <a href="#projects" class="nav-link px-6 py-4 border-b">Projects</a>
 
-            <a href="#contact" class="px-6 py-4 border-b">Contact</a>
+            <a href="#contact" class="nav-link px-6 py-4 border-b">Contact</a>
 
             <a
                 href="#contact"

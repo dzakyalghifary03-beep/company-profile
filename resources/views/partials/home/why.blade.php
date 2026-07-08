@@ -45,11 +45,13 @@
                     data-aos-delay="100"
                         class="bg-white/10 backdrop-blur rounded-2xl lg:rounded-3xl p-5 lg:p-6 border border-transparent hover:border-green-400 hover:bg-white/15 hover:scale-[1.03] transition-all duration-300">
 
-                        <h3 class="text-3xl lg:text-4xl font-black text-green-400">
-
-                            150+
-
+                        <h3
+                        class="counter text-3xl lg:text-4xl font-black text-green-400"
+                        data-target="150">
+                         0
                         </h3>
+
+                        <span class="text-green-400 font-black text-2xl">+</span>
 
                         <p class="mt-2 text-sm lg:text-base text-slate-300">
 
@@ -65,11 +67,14 @@
                     data-aos-delay="200"
                         class="bg-white/10 backdrop-blur rounded-2xl lg:rounded-3xl p-5 lg:p-6 border border-transparent hover:border-green-400 hover:bg-white/15 hover:scale-[1.03] transition-all duration-300">
 
-                        <h3 class="text-3xl lg:text-4xl font-black text-green-400">
+                        <h3
+                         class="counter text-3xl lg:text-4xl font-black text-green-400"
+                         data-target="25">
 
-                            25+
+                             0
 
                         </h3>
+                        <span class="text-green-400 font-black">+</span>
 
                         <p class="mt-2 text-sm lg:text-base text-slate-300">
 
@@ -85,11 +90,14 @@
                     data-aos-delay="300"
                         class="bg-white/10 backdrop-blur rounded-2xl lg:rounded-3xl p-5 lg:p-6 border border-transparent hover:border-green-400 hover:bg-white/15 hover:scale-[1.03] transition-all duration-300">
 
-                        <h3 class="text-3xl lg:text-4xl font-black text-green-400">
+                        <h3
+                        class="counter text-3xl lg:text-4xl font-black text-green-400"
+                        data-target="8">
 
-                            8+
+                            0
 
                         </h3>
+                        <span class="text-green-400 font-black">+</span>
 
                         <p class="mt-2 text-sm lg:text-base text-slate-300">
 
